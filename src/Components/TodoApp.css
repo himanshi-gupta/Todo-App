@@ -1,0 +1,38 @@
+input{
+    height:40px;
+    width:300px;
+    font-size:18px;
+    margin:10px;
+    padding-left:10px;
+}
+
+button{
+    height:40px;
+    width:130px;
+    background-color:darkorange;
+    border-radius:5px;
+    color:snow;
+    font-size: medium;
+    margin:10px;
+}
+ul{
+    display:grid;
+    place-items: center;
+}
+li{
+    list-style-type:none;
+    background-color:#16a5aa;
+    height:50px;
+    width:400px;
+    color:snow;
+    padding-top:15px;
+    margin: 10px;
+    font-size: 23px;
+}
+#task {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding-right: 10px;
+}
+
